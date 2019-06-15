@@ -2,6 +2,6 @@ Rails.application.routes.draw do
 	
 	get "/", to: "products#index"
 	
-	post "/add", to: "products#add"
+	post "/", to: "products#add", as: "add"
 	
 end
